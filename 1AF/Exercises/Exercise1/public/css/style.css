@@ -1,0 +1,131 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #fff3f3;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color:  #c25b5b;
+    color: black;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.brand img {
+    height: 40px;
+    width: 40px;
+    margin-right: 5px;
+}
+
+.menu-items a{
+    /* [Text Properties] */
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 20px;
+
+    /* [Border Properties] */
+    padding: 5px 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.menu-items a:hover {
+    /* [Text Properties] */
+    color: black;
+    text-decoration: none;
+
+    /* [Border Properties] */
+    border-color:  black;
+    background-color:  #752a2a ;
+  }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.product {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 2px solid #333;
+    border-radius: 15px;
+    background-color: #f4b1b1;
+    width: 100%; /* Ajusta a largura do produto para 80% da tela */
+    max-width: 1200px; /* Limita o tamanho máximo do produto */
+    height: 80vh; /* Define uma altura para o produto */
+}
+
+.product-image img {
+    max-width: 600px; /* Limita o tamanho da imagem */
+    width: 100%;
+    height: auto;
+}
+
+.product-informations {
+    max-width: 700px; /* Limita a largura das informações */
+}
+
+.product h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.product-description {
+    font-size: 22px;
+    margin-bottom: 80px;
+}
+
+.product-price {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 100px;
+    background-color: #c25b5b;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    color: black;
+    background-color: #752a2a;
+}
+
+
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin-top: auto;
+    padding: 5px;
+}
